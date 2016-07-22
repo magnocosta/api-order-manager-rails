@@ -1,0 +1,16 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *default
+  database: db_om_development
+
+test:
+  <<: *default
+  database: db_om_test
+
+production:
+  <<: *default
+  database: db_om_production

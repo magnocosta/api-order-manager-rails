@@ -1,0 +1,33 @@
+en:
+  errors:
+    messages:
+      inclusion: "100 - %{attribute} is not included in the list"
+      exclusion: "101 - %{attribute} is reserved"
+      invalid: "102 - %{attribute} is invalid"
+      confirmation: "103 - doesn't match %{attribute}"
+      accepted: "104 - must be accepted"
+      empty: "105 - can't be empty"
+      blank: "106 - %{attribute} can't be blank"
+      present: "107 - %{attribute} must be blank"
+      too_long:
+        one: "108 - %{attribute} is too long (maximum is 1 character)"
+        other: "109 - %{attribute} is too long (maximum is %{count} characters)"
+      too_short:
+        one: "110 - %{attribute} is too short (minimum is 1 character)"
+        other: "111 - %{attribute} is too short (minimum is %{count} characters)"
+      wrong_length:
+        one: "112 - %{attribute} is the wrong length (should be 1 character)"
+        other: "113 - %{attribute} is the wrong length (should be %{count} characters)"
+      not_a_number: "114 - %{attribute} is not a number"
+      not_an_integer: "115 - must be an integer"
+      greater_than: "116 - must be greater than %{count}"
+      greater_than_or_equal_to: "117 - must be greater than or equal to %{count}"
+      equal_to: "118 - must be equal to %{count}"
+      less_than: "119 - must be less than %{count}"
+      less_than_or_equal_to: "120 - must be less than or equal to %{count}"
+      other_than: "121 - must be other than %{count}"
+      odd: "122 - must be odd"
+      even: "123 - must be even"
+      taken: '124 - already be taken'
+      email: '125 - %{attribute} is not an email'
+      header_not_found: '131 - %{attribute} header not found'
