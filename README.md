@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # README #
 
 This is a template for create API applications Rails.
@@ -35,6 +36,9 @@ This is a template for create API applications Rails.
   * Use Faker to create random and authentic-like attributes;
   * Don't push if tests are failing;
   * If your tests don't require rails or the DB, don't require the spec_helper;
+=======
+# api-order-manager-rails
+>>>>>>> 86eab5b81bfee79eece07b7ae6aacdd1d2a37e79
 =======
 # api-order-manager-rails
 >>>>>>> 86eab5b81bfee79eece07b7ae6aacdd1d2a37e79
